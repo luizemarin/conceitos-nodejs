@@ -71,4 +71,4 @@ app.post("/repositories/:id/like", (req, res) => {
   return res.json(repository);
 });
 
-app.listen(3333);
+module.exports = app;
